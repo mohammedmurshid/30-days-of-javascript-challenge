@@ -2,11 +2,18 @@
 const number1 = 10;
 const number2 = -5;
 
-if (number1 > 0) {
-  console.log(`${number1} is positive`);
-} else {
-  console.log(`${number1} is negative`);
+function checkNumber(number) {
+  if (number > 0) {
+    console.log(`${number} is positive`);
+  } else if (number < 0) {
+    console.log(`${number} is negative`);
+  } else {
+    console.log(`${number} is zero`);
+  }
 }
+
+checkNumber(number1);
+checkNumber(number2);
 
 // Taks 02
 const person1 = {
@@ -19,14 +26,13 @@ const person2 = {
   age: 25,
 };
 
-if (person1.age >= 18) {
-  console.log(`${person1.name} is eligible for voting`);
-} else {
-  console.log(`${person1.name} is not eligible for voting`);
+function checkVotingEligibility(person) {
+  if (person.age >= 18) {
+    console.log(`${person.name} is eligible for voting`);
+  } else {
+    console.log(`${person.name} is not eligible for voting`);
+  }
 }
 
-if (person2.age <= 18) {
-  console.log(`${person2.name} is not eligible for voting`);
-} else {
-  console.log(`${person2.name} is eligible for voting`);
-}
+checkVotingEligibility(person1);
+checkVotingEligibility(person2);
