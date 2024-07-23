@@ -5,3 +5,4 @@
 - 21/07/2024 - Day 04: loops
 - 22/07/2024 - Day 05: functions
 - 23/07/2024 - Day 06: arrays
+- 23/07/2024 - Day 07: objects
