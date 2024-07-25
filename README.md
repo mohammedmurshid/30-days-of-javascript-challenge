@@ -7,3 +7,4 @@
 - 23/07/2024 - Day 06: arrays
 - 23/07/2024 - Day 07: objects
 - 24/07/2024 - Day 08: es6+ features
+- 25/07/2024 - Day 09: dom manipulation
