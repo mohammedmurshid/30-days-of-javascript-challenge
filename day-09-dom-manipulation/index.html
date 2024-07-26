@@ -6,15 +6,111 @@
     <title>30 Days of JavaScript</title>
     <style>
       .container {
-        height: 500px;
-        width: 500px;
+        height: 100px;
+        width: 100px;
+        margin: 5px;
         background-color: red;
+      }
+      .boxes {
+        display: flex;
+        border: 1px solid red;
+      }
+      .box1 {
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+        background-color: green;
+      }
+      .box2 {
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+        background-color: blue;
+      }
+      .box3 {
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+        background-color: cyan;
+      }
+      .box4 {
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+        background-color: magenta;
+      }
+      .box5 {
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+        background-color: red;
+      }
+      img {
+        width: 10%;
+      }
+      .paragraph {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+      }
+      .highlight {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        background-color: rgb(225, 227, 82);
+      }
+      #highlightButton {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        text-transform: capitalize;
+        background: rgb(187, 255, 0);
       }
     </style>
   </head>
-  <body>
+  <body id="root">
     <h1 id="header">Header</h1>
+
     <div class="container"></div>
+
+    <div id="newDiv"></div>
+
+    <ul id="list">
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Carrot</li>
+    </ul>
+
+    <div class="boxes">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+      <div class="box4"></div>
+      <div class="box5"></div>
+    </div>
+
+    <div>
+      <img
+        id="image"
+        src="https://images.pexels.com/photos/5750777/pexels-photo-5750777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="image-from-pexel"
+      />
+      <button id="changeImage">Change Image</button>
+    </div>
+
+    <div class="textSection">
+      <p class="paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim,
+        corporis?
+      </p>
+      <button id="highlightButton">highlight</button>
+      <button id="changeContent">change content</button>
+    </div>
+
     <script src="./activity-01.js"></script>
+    <script src="./activity-02.js"></script>
+    <script src="./activity-03.js"></script>
+    <script src="./activity-04.js"></script>
+    <script src="./activity-05.js"></script>
   </body>
 </html>
